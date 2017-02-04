@@ -1,0 +1,32 @@
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: red;
+    clear: left;
+    text-align: center;
+}
+figcaption {
+    display: block;
+}
+#imagelist img {
+    display: inline-block;
+    margin: 0px 40px 0 0;
+}
+#imagelist {
+	width: 1250px;
+	margin: 20px auto
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+@media only screen and (max-width: 500px) {
+        body {
+            border: lightblue;
+        }
+}
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
